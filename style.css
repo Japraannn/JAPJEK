@@ -144,8 +144,8 @@ header {
 }
 
 .img-skala{
-    height: 160px ;
-    width: 240px;
+    height: 100px ;
+    width: 100px;
     margin-top:-95px;
     margin-bottom: 75px;
 
@@ -183,20 +183,12 @@ header {
     font-size: 50px;
 }
 
-.card-grow1{
+.card-grow{
     background-color: #0F1F30;
     border-radius: 20px;
+    height: 450px;
 }
 
-.card-grow2{
-    background-color: #0F1F30;
-    border-radius: 20px;
-}
-
-.card-grow3{
-    background-color: #0F1F30;
-    border-radius: 20px;
-}
 
 .grow1{
     margin-left: 100px;
