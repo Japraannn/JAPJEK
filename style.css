@@ -1,0 +1,290 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #101820;
+}
+
+header {
+    background: url('img_japjek/monas.png') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+    background-position-y: -32px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important; /* Transparan */
+    padding-left: 145px;
+    padding-right: 145px;
+    padding-top: 25px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    border-bottom: 1px solid white;
+    color: #ffffff !important; 
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-content {
+    margin-top: 150px;
+    text-align: left;
+}
+
+.header-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+}
+
+.section-content    {
+    background-color: #0c0133f8;
+    color: white;
+}
+
+.bebas{
+    width: 400px;
+    margin-left: 100px;
+}
+
+.active{
+    border-bottom: 1px solid white;
+}
+
+.nav-item{
+    padding-left:0 ;
+}
+
+.btn-success{
+    background-color: #00880D !important;
+}   
+
+
+.about{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding-bottom: 99px;
+}
+
+.orientation{
+    margin-bottom: 200px;
+}
+
+.about-img{
+    width: 216px;
+    height: 220px;
+}
+
+.about-title{
+    font-size: 25px;
+}
+
+.about .container .row .col-md {
+    margin-top: -85px !important;
+}
+
+.skala{
+    margin-bottom: 115px;
+}
+
+.card-skala1{
+    background-color: #99CF9E;
+    border-radius: 20px;
+    box-shadow: 4px 0px 30px 1px rgba(153,207,158,0.72);
+    -webkit-box-shadow: 4px 0px 30px 1px rgba(153,207,158,0.72);
+    -moz-box-shadow: 4px 0px 30px 1px rgba(153,207,158,0.72);
+    height: 300px;
+
+}
+
+.card-skala2{
+    background-color: #99C6CF;
+    border-radius: 20px;
+    box-shadow: 4px 0px 30px 1px rgba(153,198,207,0.72);
+    -webkit-box-shadow: 4px 0px 30px 1px rgba(153,198,207,0.72);
+    -moz-box-shadow: 4px 0px 30px 1px rgba(153,198,207,0.72);
+    height: 300px;
+
+}
+
+.card-skala3{
+    background-color: #CFB699;
+    border-radius: 20px;
+    box-shadow: 4px 0px 30px 1px rgba(207,182,153,0.72);
+    -webkit-box-shadow: 4px 0px 30px 1px rgba(207,182,153,0.72);
+    -moz-box-shadow: 4px 0px 30px 1px rgba(207,182,153,0.72);
+    height: 300px;
+
+}
+
+.card-skala4{
+    background-color: #CF99CD;
+    border-radius: 20px;
+    box-shadow: 4px 0px 30px 1px rgba(207,153,205,0.72);
+    -webkit-box-shadow: 4px 0px 30px 1px rgba(207,153,205,0.72);
+    -moz-box-shadow: 4px 0px 30px 1px rgba(207,153,205,0.72);
+    height: 300px;
+
+}
+
+.img-skala{
+    height: 160px ;
+    width: 240px;
+    margin-top:-95px;
+    margin-bottom: 75px;
+
+}
+
+.reward{
+    background: url('img_japjek/iklan.png') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+    padding-top: 285px;
+}
+
+.bebas2{
+    width: 490px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.grow{
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-bottom: 200px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.825), transparent),
+              url('img_japjek/berbincang.png');
+    background-size: cover;
+    padding-top: 180px;
+}
+
+.grow-text{
+    width: 500px;
+}
+
+.grow-text h1{
+    font-size: 50px;
+}
+
+.card-grow1{
+    background-color: #0F1F30;
+    border-radius: 20px;
+}
+
+.card-grow2{
+    background-color: #0F1F30;
+    border-radius: 20px;
+}
+
+.card-grow3{
+    background-color: #0F1F30;
+    border-radius: 20px;
+}
+
+.grow1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -90px;  
+}
+
+.reason{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding-bottom: 35%;
+}
+
+.service{
+    padding-bottom: 10%;
+}
+
+.card-service1{
+    background-color: #005610;
+    border-radius: 20px;
+    height: 450px;
+    width: 100%;
+    
+}
+
+.card-service2{
+    background-color: #5e0000;
+    border-radius: 20px;
+    height: 450px;
+    width: 100%;
+}
+
+.card-service3{
+    background-color: #540034;
+    border-radius: 20px;
+    height: 450px;
+    width: 100%;
+    
+}
+
+.kotak-luar1{
+    height: 320px;
+    background-color: #008418;
+    
+}
+.kotak-luar2{
+    height: 320px;
+    background-color: #790000;
+}
+.kotak-luar3{
+    height: 320px;
+    background-color: #7d004d;
+}
+
+.download{
+    background: url('img_japjek/download.png') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.downloadbt{
+    padding-left: 100px;
+}
+
+
+.bebas3{
+    width: 400px;
+    margin-left: 30px;
+    padding-top: 310px;
+}
+
+.Royalti{
+    margin-bottom:100px ;
+}
+
+.bumi{
+    background-color: #28cef0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top-right-radius:100px ;
+    border-top-left-radius: 100px;
+}
+
+.footer{
+    margin-bottom: 30%;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
